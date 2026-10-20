@@ -1,0 +1,55 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+**/.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Signing keys and credentials - never commit
+*.jks
+*.keystore
+*.pepk
+key.properties
+*keystore details.txt
+
+# Android local/generated
+local.properties
+**/.gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/gradle/wrapper/gradle-wrapper.jar
+GeneratedPluginRegistrant.java
